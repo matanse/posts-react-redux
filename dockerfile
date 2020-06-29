@@ -10,6 +10,7 @@ COPY package-lock.json /usr/src/app/
 RUN npm install
 
 ADD . /usr/src/app/
+# ADD public /usr/src/app/public/
 
 # RUN npm build
 CMD [ "npm", "start" ]
