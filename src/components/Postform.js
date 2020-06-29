@@ -61,7 +61,7 @@ class PostForm extends Component {
   }
 }
 
-postForm.propType = {
+PostForm.propType = {
   createPost: PropType.func.isRequired,
 };
 
